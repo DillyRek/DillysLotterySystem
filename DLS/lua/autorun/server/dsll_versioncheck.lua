@@ -1,6 +1,6 @@
 --[[You really should not edit this!]]--
 local version = "1.0"- DO NOT EDIT THIS!
-local version_url = "https://gist.githubusercontent.com/XxLMM13xXgaming/9fe995aca007dc0702ac/raw/lmm_lottery_ticket" -- DO NOT EDIT THIS!
+local version_url = "https://github.com/DillyRek/DillysLotterySystem/releases/tag/v1.0" -- DO NOT EDIT THIS!
 local update_url = "https://github.com/DillyRek/DillysLotterySystem" -- DO NOT EDIT THIS!
 local msg_outdated = "You are using a outdated/un-supported version. You are on version "..version.."! go here to update: " .. update_url -- DO NOT EDIT THIS!
 local ranksthatgetnotify = { "superadmin", "owner", "admin", "trial moderator", "moderator" } -- DO NOT EDIT THIS!
