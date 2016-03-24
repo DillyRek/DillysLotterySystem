@@ -66,12 +66,12 @@ function SendLotteryTicket(ply)
 		if clnum3 == answer3 then winners = winners + 1 end
 		
 		if winners == 1 then
-			ply:addpoints(DLSConfig.RewardMatch1)
+			ply:PS2_AddStandardPoints(DLSConfig.RewardMatch1)
 		elseif winners == 2 then
-			ply:addpoints(DLSConfig.RewardMatch2)
+			ply:PS2_AddStandardPoints(DLSConfig.RewardMatch2)
 		elseif winners == 3 then
-			ply:addpoints(DLSConfig.RewardMatch3)
-		end			
+			ply:PS2_AddPremiumPoints(DLSConfig.RewardMatch3)
+		end				
 		
 		net.Start("DLSRewardsText")
 			net.WriteFloat(winners)
